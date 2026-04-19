@@ -1,0 +1,151 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+
+    background: url('The Art of Strategy_ Rahasia Mengambil Keputusan Tepat di Waktu Tepat 🗝️.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Container */
+.chat-container {
+    width: 700px;
+    background: linear-gradient(145deg, #111827, #1f2937);
+    border-radius: 18px;
+    padding: 22px;
+    color: #e6e5eb;
+    box-shadow: 
+        0 10px 30px rgba(0,0,0,0.5),
+        inset 0 1px 0 rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.05);
+   
+    width: 550px;
+    /**height: 600px; **/  
+    background: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    ),
+    url('download (23).jpg');
+
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Title */
+/**h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #f9fafb;
+}**/
+.header {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.header h1 {
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    color: #f9fafb;
+}
+
+.header p {
+    font-size: 15px;
+    
+    color: #9ca3af;
+    margin-top: 5px;
+}
+
+/* Chat box */
+#chatBox {
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+}
+
+
+#chatBox::-webkit-scrollbar {
+    width: 6px;
+}
+
+#chatBox::-webkit-scrollbar-thumb {
+    background: #374151;
+    border-radius: 10px;
+}
+
+/* Messages */
+.message {
+    padding: 10px 14px;
+    margin: 8px 0;
+    border-radius: 12px;
+    max-width: 75%;
+    font-size: 14px;
+}
+
+/* User message */
+.user {
+    background: #2563eb;
+    color: white;
+    align-self: flex-end;
+}
+
+/* Bot message */
+.bot {
+    background: #1f2937;
+    color: #d1d5db;
+    align-self: flex-start;
+}
+
+/* Input area */
+.input-area {
+    display: flex;
+    gap: 8px;
+}
+
+/* Input */
+input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #2d3138;
+    color: rgb(242, 233, 233);
+}
+
+/* Buttons */
+button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* Send button */
+button:nth-child(2) {
+    background: #175f68;
+    color: white;
+}
+
+/* Clear button */
+button:nth-child(3) {
+    background: #72497a;
+    color: white;
+}
+
+/* Hover effects */
+button:hover {
+    opacity: 0.85;
+}
